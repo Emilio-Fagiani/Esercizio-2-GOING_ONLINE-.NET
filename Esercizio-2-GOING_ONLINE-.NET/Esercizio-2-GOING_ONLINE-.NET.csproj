@@ -7,4 +7,8 @@
     <RootNamespace>Esercizio_2_GOING_ONLINE_.NET</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+  </ItemGroup>
+
 </Project>

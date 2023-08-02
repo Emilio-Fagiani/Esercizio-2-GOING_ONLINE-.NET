@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Esercizio_2_GOING_ONLINE_.NET.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Esercizio_2_GOING_ONLINE_.NET.Controllers
@@ -14,7 +15,7 @@ namespace Esercizio_2_GOING_ONLINE_.NET.Controllers
         // GET: QuestionController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+             return View();
         }
 
         // GET: QuestionController/Create
